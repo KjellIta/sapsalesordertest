@@ -17,4 +17,13 @@
     <PackageReference Include="Microsoft.Azure.Functions.Worker.Sdk" Version="2.0.7" />
   </ItemGroup>
 
+  <ItemGroup>
+  <Reference Include="SAPConnector">
+    <HintPath>lib/rscp4n.dll</HintPath>
+    <HintPath>lib/sapnco.dll</HintPath>
+    <HintPath>lib/sapnco_utils.dll</HintPath>
+
+  </Reference>
+</ItemGroup>
+
 </Project>
